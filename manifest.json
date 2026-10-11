@@ -1,0 +1,13 @@
+{
+  "name": "روتین | پلنر و CRM",
+  "short_name": "روتین",
+  "description": "پلنر شخصی و مدیریت مشتریان با چهار تم",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f1e7",
+  "theme_color": "#697650",
+  "icons": []
+}

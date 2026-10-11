@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#697650">
+<meta name="description" content="پلنر شخصی و مدیریت مشتریان ROUTINE">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<title>روتین | پلنر و CRM</title>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">✿</div><div><strong>روتین</strong><small>پلنر شخصی و CRM</small></div></div>
+    <div class="side-label">فضای کاری</div>
+    <nav id="nav">
+      <button class="nav-item active" data-page="dashboard"><span>◫</span> داشبورد</button>
+      <button class="nav-item" data-page="tasks"><span>✓</span> کارهای من</button>
+      <button class="nav-item" data-page="customers"><span>♧</span> مشتریان</button>
+      <button class="nav-item" data-page="orders"><span>▤</span> سفارش‌ها</button>
+      <button class="nav-item" data-page="notes"><span>▧</span> یادداشت‌ها</button>
+      <button class="nav-item" data-page="reports"><span>◷</span> اهداف و گزارش‌ها</button>
+      <button class="nav-item" data-page="settings"><span>⚙</span> تنظیمات و تم</button>
+    </nav>
+    <div class="sidebar-bottom"><div class="leaf-art">❋</div><p>آرام پیش برو،<br>پیوسته رشد کن.</p><small>نسخه محلی · اطلاعات روی همین دستگاه</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><button id="mobileMenu" class="icon-btn" aria-label="باز کردن منو">☰</button><div><div class="eyebrow">فضای شخصی تو</div><h1 id="pageTitle">داشبورد</h1></div><div class="top-actions"><span class="today-chip" id="todayLabel"></span><button class="icon-btn" id="quickTheme" title="تغییر تم">◐</button></div></header>
+    <div id="content" class="content"></div>
+    <footer>ROUTINE <span>·</span> ساده‌تر برنامه‌ریزی کن، آگاهانه‌تر رشد کن.</footer>
+  </main>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
