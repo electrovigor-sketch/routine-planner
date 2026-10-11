@@ -8,15 +8,19 @@
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" href="icon-192.png">
 <link rel="stylesheet" href="styles.css">
-<title>روتین | پلنر و CRM</title>
+<title>روتین | پلنر حرفه‌ای زندگی و کسب‌وکار</title>
 </head>
 <body>
 <div class="app-shell">
   <aside class="sidebar">
     <div class="brand"><div class="brand-mark">✿</div><div><strong>روتین</strong><small>پلنر جامع زندگی و کسب‌وکار</small></div></div>
     <div class="side-label">فضای کاری</div>
+    <div class="side-label" style="margin-top:4px">فضای کاری فعال</div>
+    <div id="bizSwitcher" class="biz-switcher" style="padding:0 12px 10px"></div>
     <nav id="nav">
       <button class="nav-item active" data-page="dashboard"><span>◫</span> داشبورد</button>
+      <button class="nav-item" data-page="businesses"><span>🏢</span> کسب‌وکارها</button>
+      <button class="nav-item" data-page="routines"><span>↻</span> روتین‌های تکرارشونده</button>
       <button class="nav-item" data-page="tasks"><span>✓</span> کارهای من</button>
       <button class="nav-item" data-page="customers"><span>♧</span> مشتریان</button>
       <button class="nav-item" data-page="orders"><span>▤</span> سفارش‌ها</button>

@@ -27,3 +27,8 @@ body[data-theme="dark"] .topbar h1{letter-spacing:-.5px}
 
 /* Real data charts */
 .chart-wrap{width:100%;overflow:hidden}.chart-legend{display:flex;gap:18px;justify-content:center;color:var(--muted);font-size:12px;margin:8px 0 4px}.chart-legend span{display:flex;align-items:center;gap:7px}.chart-legend i{width:10px;height:10px;border-radius:3px;display:inline-block}.data-chart{width:100%;height:auto;display:block;overflow:visible}.goal-chart-row{display:grid;grid-template-columns:120px minmax(0,1fr);gap:18px;align-items:center}.goal-donut{width:120px;height:120px}.goal-chart-row strong{font-size:14px}.goal-chart-row .progress{margin-top:12px}@media(max-width:480px){.goal-chart-row{grid-template-columns:92px minmax(0,1fr);gap:12px}.goal-donut{width:92px;height:92px}}
+
+.biz-switcher{margin-bottom:4px}
+.biz-switcher select{width:100%;padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--ink);font-size:13px;outline:none}
+.biz-switcher select:focus{border-color:var(--primary)}
+.item-card input[type=checkbox]{width:18px;height:18px;accent-color:var(--primary);flex-shrink:0}
