@@ -133,7 +133,7 @@ function toggleTask(taskId,done){
   }
  }
  saveState();render();
-}-${String(base.getMonth()+1).padStart(2,"0")}-${String(base.getDate()).padStart(2,"0")}`;state.tasks.unshift({...task,id:id(),done:false,due:nextDue});}}saveState();render()}
+}
 function deleteItem(key,itemId){if(!confirm("از حذف این مورد مطمئنی؟"))return;state[key]=state[key].filter(x=>x.id!==itemId);saveState();render();toast("حذف شد.")}
 function updateCustomer(customerId,key,value){state.customers=state.customers.map(c=>c.id===customerId?{...c,[key]:value}:c);saveState();render();toast("وضعیت مشتری به‌روزرسانی شد.")}
 function updateOrder(orderId,key,value){state.orders=state.orders.map(o=>o.id===orderId?{...o,[key]:value}:o);saveState();render();toast("سفارش به‌روزرسانی شد.")}
